@@ -96,7 +96,7 @@ public class RedBusAutomationAssignmentFinalSolution {
 
 		By searchCategoryLocator = By.xpath("//div[contains(@class,\"searchCategory\")]");
 		List<WebElement> searchList = wait
-				.until(ExpectedConditions.numberOfElementsToBeMoreThan(searchCategoryLocator, 2));
+				.until(ExpectedConditions.numberOfElementsToBeMoreThan(searchCategoryLocator, 1));
 
 		System.out.println(searchList.size());
 

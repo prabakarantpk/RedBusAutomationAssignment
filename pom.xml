@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>RedBusAutomation</groupId>
-	<artifactId>RedBusAutomation</artifactId>
+	<artifactId>codingPractice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RedBusAutomation</name>
 	<properties>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.21.0</version>
+			<version>4.25.0</version>
 		</dependency>
 
 	</dependencies>

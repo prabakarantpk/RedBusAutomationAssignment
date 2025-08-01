@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-31T12:16:53 IST" name="RedbusSmokeTestSuite" finished-at="2025-07-31T12:17:14 IST" duration-ms="20799">
+    <groups>
+    </groups>
+    <test started-at="2025-07-31T12:16:53 IST" name="SmokeTests" finished-at="2025-07-31T12:17:14 IST" duration-ms="20799">
+      <class name="com.redbus.redBusSmokeTestAutomation">
+        <test-method signature="redBusSmokeTest()[pri:0, instance:com.redbus.redBusSmokeTestAutomation@2ed0fbae]" started-at="2025-07-31T12:16:53 IST" name="redBusSmokeTest" finished-at="2025-07-31T12:17:14 IST" duration-ms="20758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redBusSmokeTest -->
+      </class> <!-- com.redbus.redBusSmokeTestAutomation -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- RedbusSmokeTestSuite -->
+</testng-results>

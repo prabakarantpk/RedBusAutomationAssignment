@@ -8,10 +8,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class redBusSmokeTestAutomation {
-
-    public static void main(String[] args) {
+    /**
+     * This is a smoke test for the redBus website.
+     * It performs the following actions:
+     * 1. Opens the redBus website.
+     * 2. Selects source and destination locations.
+     * 3. Searches for buses.
+     * 4. Applies filters for Primo and Evening buses.
+     * 5. Scrolls through the list of buses and prints their names.
+     */
+    @Test
+    public void redBusSmokeTest() {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
